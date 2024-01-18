@@ -1,6 +1,6 @@
 // Java Program for sleeping the main thread.
 
-import java.io.*;
+// import java.io.*;
 import java.lang.Thread;
 
 class GFG {

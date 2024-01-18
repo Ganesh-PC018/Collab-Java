@@ -1,4 +1,4 @@
-package pack;
+// package pack;
 
 public class Second
 {
