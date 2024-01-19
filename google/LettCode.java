@@ -16,11 +16,11 @@ public class LettCode {
         System.out.println("data : "+data);
         int l = String.valueOf(data).length();
         System.out.println("legth : "+l);
-        int a2[] = new int[l];
+        int a2[] = new int[l];//new Arr
         for(int i=l-1;i>=0;i--)
         {
-            a2[i] = data%10; // 1 0 0 0
-            data = data/10; //
+            a2[i] = data%10; //
+            data = data/10;  //
         }
         
         for(int i=0;i<l;i++)
