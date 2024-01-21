@@ -23,7 +23,7 @@ public class CollectionLinkedListE {
         System.out.println("Is Empty : "+l.isEmpty());
         l.addFirst("Custored Apple");
         System.out.println(l);
-        Iterator li = l.iterator();
+        Iterator<String> li = l.iterator();
         while(li.hasNext())
         {
             System.out.println(li.next());
