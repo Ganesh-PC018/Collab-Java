@@ -35,5 +35,16 @@ public class CollectionArrayListEx {
         {
             System.out.println(t.next());
         }
+
+        for(String s : list)
+        {
+            System.out.println(s);
+        }
+
+        Collections.sort(list);
+        for(String s : list)
+        {
+            System.out.print(s+" ");
+        }
     }
 }
