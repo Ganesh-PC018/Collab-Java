@@ -1,8 +1,6 @@
 package google;
 
-    import java.io.*;
     import java.util.*;
-    import java.util.Map.Entry;
     
     class CollectionsDemoEx {
         public static void main(String[] args) {
@@ -12,10 +10,11 @@ package google;
                 int n = sc.nextInt();
                 int[] a = new int[n];
                 for (int i = 0; i < n; i++) a[i] = sc.nextInt();
-                Solution g = new Solution();
+                Solution2 g = new Solution2();
                 ArrayList<Integer> ans = g.duplicates(a, n);
                 for (Integer val : ans) System.out.print(val + " ");
                 System.out.println();
+                sc.close();
             }
         }
     }
@@ -23,8 +22,8 @@ package google;
     // } Driver Code Ends
     
     
-    class Solution {
-        public static ArrayList<Integer> duplicates(int arr[], int n) {
+    class Solution2 {
+        public ArrayList<Integer> duplicates(int arr[], int n) {
             // code here
             Arrays.sort(arr);
             ArrayList<Integer> ar = new ArrayList<Integer>();
