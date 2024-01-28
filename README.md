@@ -1,2 +1,0 @@
-# Collab-Java
-java Practicals

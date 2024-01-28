@@ -6,7 +6,7 @@ public class ExceptionTryFinally {
 
         try
         {
-            System.out.println(s.length());
+            // System.out.println(s.length());
         }
         catch(NullPointerException e)
         {
