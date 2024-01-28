@@ -1,3 +1,4 @@
+package google;
 public class CanWeExecuteProgramWithoutMainMethod {
     static
     {

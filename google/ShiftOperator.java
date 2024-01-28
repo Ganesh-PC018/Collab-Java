@@ -1,3 +1,4 @@
+package google;
 public class ShiftOperator {
     public static void main(String[] args) {
         int a=10;

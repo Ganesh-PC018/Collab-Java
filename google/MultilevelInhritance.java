@@ -1,3 +1,4 @@
+package google;
 class Kingdom
 {
     void eat()

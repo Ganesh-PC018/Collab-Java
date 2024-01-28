@@ -1,3 +1,4 @@
+package google;
 interface drawable
 {
     void draw();

@@ -1,3 +1,4 @@
+package google;
 class Animal1
 {
     void eat()

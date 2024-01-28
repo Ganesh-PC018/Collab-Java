@@ -1,3 +1,4 @@
+package google;
 public class NoMainMethod {
     // This class does not have a main method
 

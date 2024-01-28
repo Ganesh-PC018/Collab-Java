@@ -1,4 +1,4 @@
-
+package google;
 public class StaticBlock {
         static
         {

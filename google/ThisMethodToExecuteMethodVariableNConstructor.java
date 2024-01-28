@@ -1,3 +1,4 @@
+package google;
 class A
 {
     int a;

@@ -1,3 +1,4 @@
+package google;
 class Student2
 {
     static String name = "GPP";

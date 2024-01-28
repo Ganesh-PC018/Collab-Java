@@ -1,8 +1,8 @@
 // Java Program for sleeping the main thread.
 
 // import java.io.*;
+package google;
 import java.lang.Thread;
-
 class GFG {
 	public static void main(String[] args)
 	{

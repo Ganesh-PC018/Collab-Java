@@ -1,3 +1,4 @@
+package google;
 public class NestedSwitchCase {
     public static void main(String[] args) {
         int Year =2;

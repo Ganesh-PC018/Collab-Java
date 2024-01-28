@@ -1,5 +1,5 @@
+package google;
 import java.lang.Exception;
-
 class MyException extends Exception
 {
 

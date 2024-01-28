@@ -1,5 +1,5 @@
+package google;
 import java.util.Scanner;
-
 public class DecisionMakingControlStatements {
     public static void main(String[] args) {
         int num =10;

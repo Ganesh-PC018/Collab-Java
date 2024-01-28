@@ -1,5 +1,5 @@
 
-
+package google;
 class SumOfTwo
 {
     public static int[] twoSum(int[] nums, int target) {
