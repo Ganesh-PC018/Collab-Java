@@ -2,6 +2,10 @@ package google;
 public class PracticalNumber04 {
     public static boolean enrollVarifier(Character arr[])
     {
+        if(arr.length != 10)
+        {
+            return false;
+        }
         for(int i=0;i<arr.length;i++)
         {
             if(i<4 || (i >= arr.length-3 && i < arr.length))
@@ -25,7 +29,7 @@ public class PracticalNumber04 {
         return true;
     }
     public static void main(String[] args) {
-        // String s = "2023BIT501";
+        
         Character arr[] ={'2','0','2','3','B','I','T','5','0','1'};
         
         if(enrollVarifier(arr))
